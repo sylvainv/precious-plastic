@@ -1,0 +1,21 @@
+home:
+  HEADLINE_LET_PEOPLE_KNOW_HOW_TO_START: Let people in every corner of the world know they can start their own local plastic workshop.
+  LINK_SPREAD_IT: Spread it!
+  TITLE_WHY: Why?
+  TEXT_SEARCH_PLASTIC_WASTE: "search: <a href=\"https://www.google.com/search?q=plastic+waste&biw=1916&bih=1082&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi84dmt9NTLAhVHPBoKHVNFChkQ_AUIBigB\" target=\"_blank\">plastic waste</a>"
+  TITLE_THE_PLAN: The plan
+  ITEM_DEVELOP_RECYCLE_MACHINES: Develop machines to recycle plastic
+  ITEM_SHARE_BLUEPRINTS: Share the blueprints online, for free
+  ITEM_PROVIDE_KNOWLEDGE: Provide people the knowledge to start
+  ITEM_SPREAD_INFORMATION: Spread this information into every corner of the world
+  TITLE_AREAS_WE_DEVELOPED_RECYCLE_MACHINE: We developed machines to recycle plastic
+  TITLE_MAKE_SURE_PEOPLE_KNOW_EXIST: ..let’s make sure people know they exist!
+  TEXT_SHARE_IT_AROUND_GLOBE: share it around the globe
+  ITEM_COUNT_DAY: Day
+  ITEM_COUNT_SHARES: Shares
+  ITEM_COUNT_CITIES: Cities
+  ITEM_COUNT_COUNTRIES: Countries
+  LINK_VISIT_WEBSITE: Visit website
+lang:
+  en: English
+  fr: Français

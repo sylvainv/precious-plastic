@@ -8,7 +8,15 @@
     <a href="/thanks">Thanks</a>
     <a href="/terms">Terms</a>
     <a href="/contact">Contact</a>
-      <a href="https://davehakkens.nl/donate/preciousplastic/">Donate</a>
+    <a href="https://davehakkens.nl/donate/preciousplastic/">Donate</a>
+  </nav>
+
+  <nav>
+    {% for language in site.languages %}
+        {% unless page.language == language %}
+          <a href="{{ site.baseurl }}/{{ language }}/" title="{% tl language %}">{% tl language %}</a>
+        {% endunless %}
+    {% endfor %}
   </nav>
 
   <a href="https://davehakkens.nl" target="_blank" class="by">A project by Dave Hakkens</a>

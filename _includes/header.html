@@ -21,13 +21,12 @@
           {% assign current = "active" %}
         {% endif %}
 
-        {% unless node.url == "/" or node.url contains "assets" or node.layout == "page" or node.kind == "error" %}
+        {% unless node.url == "/" or node.url contains "assets" or node.layout == "page" or node.kind == "error" or node.language != page.language %}
           <a href="{{node.url}}" class="{{current}}">{{node.title}}</a>
         {% endunless %}
 
       {% endfor %}
-
-      <a href="/videos" class="start">Start</a>
+      <a href="/{{ language }}/videos/" class="start">Start</a>
     </nav>
   </div>
 </header>

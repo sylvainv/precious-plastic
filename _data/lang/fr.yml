@@ -1,0 +1,21 @@
+home:
+  HEADLINE_LET_PEOPLE_KNOW_HOW_TO_START: Permettre aux gens tout autour du monde de construire le propre atelier de recyclage facilement.
+  LINK_SPREAD_IT: Faites tournez!
+  TITLE_WHY: Pourquoi?
+  TEXT_SEARCH_PLASTIC_WASTE: "recherchez: <a href=\"https://www.google.com/search?q=pollution+plastique&biw=1916&bih=1082&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi84dmt9NTLAhVHPBoKHVNFChkQ_AUIBigB\" target=\"_blank\">pollution plastique</a>"
+  TITLE_THE_PLAN: Le plan
+  ITEM_DEVELOP_RECYCLE_MACHINES: Créer des machines pour recycler le plastique
+  ITEM_SHARE_BLUEPRINTS: Partager les plans desdites machines en ligne, gratuitement
+  ITEM_PROVIDE_KNOWLEDGE: Donner aux gens les connaissances pour démarrer
+  ITEM_SPREAD_INFORMATION: Répandre cette information dans tous les coins du globe
+  TITLE_AREAS_WE_DEVELOPED_RECYCLE_MACHINE: Nous créeons des machines pour recycler le plastique
+  TITLE_MAKE_SURE_PEOPLE_KNOW_EXIST: ..faisons en sorte que les gens les connaissent.
+  TEXT_SHARE_IT_AROUND_GLOBE: partageons autour du globe
+  ITEM_COUNT_DAY: Jour
+  ITEM_COUNT_SHARES: Partages
+  ITEM_COUNT_CITIES: Villes
+  ITEM_COUNT_COUNTRIES: Pays
+  LINK_VISIT_WEBSITE: Visiter le site web
+lang:
+  en: English
+  fr: Français

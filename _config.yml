@@ -3,6 +3,7 @@ title: Precious Plastic
 url: http://preciousplastic.com
 baseurl: ''
 description: Turn plastic waste into new valuable things
+languages: ['en', 'fr']
 
 sass:
   style: compressed
@@ -11,4 +12,10 @@ exclude: ['CNAME', '*.md']
 permalink: pretty
 
 gems:
+  - jekyll-language-plugin
   - jekyll-sitemap
+  - jekyll-redirect-from
+
+language_data: data.lang.%%
+language_includes_dir: _i18n
+default_language: fr

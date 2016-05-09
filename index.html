@@ -1,6 +1,16 @@
 ---
 title: Home
 layout: default
+
+permalink: /:language/
+
+redirect_from:
+  - /
+
+languages:
+- en
+- fr
+subset: home
 ---
 
 <section id="intro">
@@ -15,8 +25,8 @@ layout: default
     </aside>
 
     <aside class="right">
-      <p>Let people in every corner of the world know they can start their own local plastic workshop.</p>
-      <a href="#" class="spread">Spread!</a>
+      <p>{% t 'HEADLINE_LET_PEOPLE_KNOW_HOW_TO_START' %} </p>
+      <a href="#" class="spread">{% t 'LINK_SPREAD_IT' %}</a>
       <span class="boost"></span>
     </aside>
 
@@ -24,8 +34,8 @@ layout: default
   </section>
 
   <aside class="bottom">
-    <h1>Why?</h1>
-    <h2>search: <a href="https://www.google.com/search?q=plastic+waste&biw=1916&bih=1082&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi84dmt9NTLAhVHPBoKHVNFChkQ_AUIBigB" target="_blank">plastic waste</a></h2>
+    <h1>{% t 'TITLE_WHY' %}</h1>
+    <h2>{% t 'TEXT_SEARCH_PLASTIC_WASTE' %}</h2>
   </aside>
 </section>
 
@@ -33,13 +43,13 @@ layout: default
   <article>
     <img class="machines" src="/assets/images/machines.png" />
 
-    <h1>The plan</h1>
+    <h1>{% t 'TITLE_THE_PLAN' %}</h1>
 
     <ul>
-      <li class="check">Develop machines to recycle plastic</li>
-      <li class="check">Share the blueprints online, for free</li>
-      <li class="check">Provide people the knowledge to start</li>
-      <li class="spread">Spread this information into every corner of the world</li>
+      <li class="check">{% t 'ITEM_DEVELOP_RECYCLE_MACHINES' %}</li>
+      <li class="check">{% t 'ITEM_SHARE_BLUEPRINTS' %}</li>
+      <li class="check">{% t 'ITEM_PROVIDE_KNOWLEDGE' %}</li>
+      <li class="spread">{% t 'ITEM_SPREAD_INFORMATION' %}</li>
     </ul>
 
     <span class="where-you-come"></span>
@@ -48,11 +58,11 @@ layout: default
 
 <section id="areas">
   <aside>
-    <h1>We developed machines to recycle plastic</h1>
+    <h1>{% t 'TITLE_AREAS_WE_DEVELOPED_RECYCLE_MACHINE' %}</h1>
   </aside>
   <article>
-    <h1>..let’s make sure people know they exist!</h1>
-    <p>share it around the globe</p>
+    <h1>{% t 'TITLE_MAKE_SURE_PEOPLE_KNOW_EXIST' %}</h1>
+    <p>{% t 'TEXT_SHARE_IT_AROUND_GLOBE' %}</p>
 
     <iframe src="http://dumpark.com/embed/ppmap/" class="map"></iframe>
 
@@ -64,25 +74,25 @@ layout: default
 
     <ul>
       <li>
-        <b>Day</b><span class="days-count">0</span>
+        <b>{% t 'ITEM_COUNT_DAY' %}</b><span class="days-count">0</span>
       </li>
       <li>
-        <b>Shares</b><span class="shares-count">0</span>
+        <b>{% t 'ITEM_COUNT_SHARES' %}</b><span class="shares-count">0</span>
       </li>
       <li>
-        <b>Countries</b><span class="country-count">&#126; 190</span>
+        <b>{% t 'ITEM_COUNT_COUNTRIES' %}</b><span class="country-count">&#126; 190</span>
       </li>
       <li>
-        <b>Cities</b><span class="city-count">&#126; 3000</span>
+        <b>{% t 'ITEM_COUNT_CITIES' %}</b><span class="city-count">&#126; 3000</span>
       </li>
     </ul>
 
     <div class="clearfix"></div>
 
     <div class="spread">
-      <a href="#">Spread!</a>
+      <a href="#">{% t 'LINK_SPREAD_IT' %}</a>
     </div>
 
-    <div class="visitwebsite"><a href="/plan">visit website</a></div>
+    <div class="visitwebsite"><a href="/plan">{% t 'LINK_VISIT_WEBSITE' %}</a></div>
   </article>
 </section>
